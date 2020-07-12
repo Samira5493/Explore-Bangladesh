@@ -1,0 +1,248 @@
+body{
+	margin:0 auto;
+	background:linear-gradient(black,white);
+}
+
+.heading h2{
+	text-align: center;
+	padding-top:5px;
+	font-family:arial;
+	font-size:25px;
+	color:white;
+}
+
+.navigation{
+	background: red;
+}
+
+.nav{
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+.nav-justified{
+	width:100%;
+}
+.nav-justified > li{
+	display:table-cell;
+	width:1%;
+	border:1px solid blue;
+	text-align:center;
+
+}
+	.nav-justified > li > a{
+	text-decoration:none;
+	display:block;
+	padding:10px 0px;
+	color: green;
+	text-align:center;
+
+	}
+	
+	.nav-justified > li > a:hover{
+		text-decoration:none;
+		text-align:center;
+		display:block;
+		padding:10px 0px;
+		background:green;
+		color:red;
+	}
+	.nav-justified > li.active > a{
+		text-decoration:none;
+		text-align:center;
+		display:block;
+		padding:10px 0px;
+		background:green;
+		color:red;
+	}
+	caption{
+		color:white;
+		font-family:arial;
+		font-size:15px;
+		font-style:bold;
+	}
+
+	table{
+		width: 650px;
+		text-align:center;
+		margin:50px auto;
+		background-color:#ddd;
+		float:left;
+		
+	}
+	
+	table,th,td{
+		border-collapse:collapse;
+		border: 2px solid red;
+	}
+	
+	.table_left{text-align: left;}
+	
+	.mydiv{
+		width:300px;
+		height: 150px;
+		border: 1px solid red;
+		overflow: scroll;
+		margin:50 auto;
+		padding-left: 15px;
+		float:right;
+		color:white;
+	}
+	
+	.block1{
+		width:200px;
+		height:200px;
+		background:linear-gradient(red,green,blue,yellow);
+		float:left;
+		margin:-33px 4095px 30px 10px;
+		
+	   -o-transition:all 2s ease-out;
+	   
+	   -moz-transition:all 2s ease-out;
+	   
+	   -ms-transition:all 2s ease-out;
+	   
+		-webkit-transition:all 2s ease-out;
+		
+		transition:all 2s ease-out;
+	}
+	
+	.block2{
+		width:200px;
+		height:200px;
+		background:radial-gradient(red,green);
+		float:right;
+		margin:-230px 949px 30px 150px;
+		
+		-o-transition:all 2s ease-out;
+		
+	   -moz-transition:all 2s ease-out;
+	   
+	   -ms-transition:all 2s ease-out;	
+	   
+       -webkit-transition: all 2s ease-out;
+	
+		transition: all 2s ease-out;
+	}
+	
+	.block1:hover{
+		background:radial-gradient(red,green);
+		width:300px;
+		-o-transform: rotate(360deg);
+		-moz-transform: rotate(360deg);
+		-ms-transform: rotate(360deg);
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+	
+	.block2:hover{
+		background:linear-gradient(red,green,blue,yellow);
+		width:300px;
+		-o-transform: rotate(360deg);
+		-moz-transform: rotate(360deg);
+		-ms-transform: rotate(360deg);
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+	
+form{
+	width:200px;
+	float:right;
+    margin: -222px 10px 50px 5000px;
+	border:3px solid red;
+
+}
+
+.anime{
+	width:200px;
+	height:200px;
+	background-color:red;
+	margin:541px 5000px 10px 10px;
+	animation-name: samira;
+	animation-duration: 2s;
+	animation-iteration-count:3;
+}
+
+@keyframes samira{
+	from{background-color:red}
+	to{background-color:green; border-radius:50%}
+}
+
+.anime2{
+	width:200px;
+	height:200px;
+	background: url("images/Untitled.png");
+	background-repeat: no-repeat;
+	float:right;
+	margin:-420px 670px 10px 5000px;
+	position:relative;
+	animation-name: rishad;
+	animation-duration:4s;
+	animation-iteration-count:2;
+	animation-delay:1s;
+	animation-direction:alternate;
+	
+}
+
+@keyframes rishad{
+	
+	0%{background: url("images/Untitled.png") no-repeat}
+	50%{background: url("images/Untitled2.png") no-repeat}
+	100%{background: url("images/Untitled.png") no-repeat}
+	
+	0%{left:0;top:0;}
+	25%{left:200px;top:0}
+	50%{left:200px;top:200px;}
+	75%{left:0;top:200px;}
+	100%{left:0;top:0}
+	
+}
+
+
+.wrapper{
+	width:960px;
+	margin:0 auto;
+	padding:0;
+}
+.box img{
+	width:300px;
+	height:180px;
+}
+.box{
+	width:300px;
+	float:left;
+	margin-right:30px;
+}
+.nomrgn{
+	margin-right:0px;
+}
+.box h2{
+	color:orange;
+}
+.box p{
+	text-align:justify;
+}
+.box a {
+	text-decoration:none;
+	text-align:center;
+	background:orange;
+	color:red;
+	display:block;
+	margin:0 auto;
+	padding:3px 0;
+	margin-top:5px;
+	transition:1s all ease;
+}
+
+.box a:hover {
+	text-decoration:none;
+	text-align:center;
+	background:#222;
+	color:orange;
+	display:block;
+	margin:0 auto;
+	padding:3px 0;
+	margin-top:5px;
+}
+	
+	

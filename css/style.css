@@ -1,0 +1,184 @@
+
+html{
+	font-family:'Bitter',serif;
+}
+body{
+/*background: url("../images/village.jpg") center;
+background-attachment: fixed;*/
+margin: 0;
+}
+.container-fluid{
+	width: 100%;
+	height: auto;
+}
+.container{
+	margin: 0px auto;
+	width:1200px;
+	height: auto;
+	background: rgba(255,255,255,0.8);
+}
+.heading{
+	text-align: center;
+}
+.heading h1{
+	font-size: 45px;
+	color:heading-fix;
+}
+.navigation{
+	background: #222;
+}
+.nav{
+	padding:0px;
+	margin:0px;
+	list-style: none;
+}
+
+.nav-justified{
+	width:100%;
+}
+.nav-justified > li{
+	display: table-cell;
+	width: 1%;
+	border-right: 2px solid oldlace;
+}
+.nav-justified > li:last-child{
+    display: table-cell;
+    width: 1%;
+    border-right: 0px solid oldlace;
+}
+
+.nav-justified > li > a{
+	display: block;
+	text-align: center;
+	padding: 10px 0px;
+	color: #F96B5F;
+	text-decoration: none;
+}
+.nav-justified > li.active > a{
+	display: block;
+	text-align: center;
+	padding: 10px 0px;
+	background: #F96B5F;
+	color: #222;
+	text-decoration: none;
+}
+.nav-justified > li > a:hover{
+	display: block;
+	text-align: center;
+	padding: 10px 0px;
+	background: #F96B5F;
+	color: #222;
+	text-decoration: none;
+}
+.content{
+	padding: 30px 0;
+}
+.content img{
+	float:left;
+	margin:17px;
+}
+.content h2{
+	margin:0px;
+	color:#F96B5F;
+}
+.button{
+	background:#00275c;
+	color:white;
+	text-decoration:none;
+	padding: 5px 5px;
+	border-radius:5px;
+	float:right;
+}
+.parallax{
+	background: url("../images/village.jpg");
+	min-height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.scroll > .parallax{
+	background: url("../images/Winter-morning.jpg");
+	min-height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.last_scroll > .parallax{
+	background: url("../images/sunset.jpg");
+	min-height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+.portfolio > .col{ 
+    width:25%;
+    box-sizing:border-box;
+    float:left;
+    padding:0px;
+	overflow: hidden;
+}
+.portfolio > .col > .thumbnail{
+    padding:5px;
+    background: white;
+    border:1px solid #ccc;
+    border-radius:5px;
+    margin-bottom: 20px;
+}
+.portfolio > .col > .thumbnail > img {
+    max-width:100%;
+    height:auto;
+    
+}
+.portfolio > .col > .thumbnail > .caption{
+    
+}
+.portfolio > .col > .thumbnail > .caption > h3{
+    
+}
+.portfolio > .col > .thumbnail > .caption > p{
+    
+}
+.portfolio > .col > .thumbnail > .caption > p > a{
+    
+}
+.pull-left{
+    float: left;
+}
+.pull-right{
+    float: right;    
+}
+.footer{
+    background:#00275c;
+	color:white;
+    padding: 0 10px;
+}
+.fix{
+    overflow: hidden;
+}
+.iframe{
+    max-width: 100%;
+    height: 190px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
